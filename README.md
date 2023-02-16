@@ -47,7 +47,7 @@ Install the project with yarn and install :
   yarn 
 ```
     
-The library "antd" should already be included as a dependency in the project package when running the first line of the above code. However, if you cannot see the dependency inside the ```package.json file``` then run the following:
+The library "antd" should already be included as a dependency in the project package when running the first line of the above code. However, if you cannot see the dependency inside the ```package.json``` file then run the following:
 
 ```bash
 yarn add antd
