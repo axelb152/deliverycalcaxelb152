@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wolt Delivery Calculator - Axel Bagenal 
 
-## Available Scripts
+This is my attempt at the frontend specification of the Preliminary Assignment for the Wolt Engineering Intern Positions 2023. I am a fullstack developer who recently graduated from Le Wagon, who's techstack includes: React, Ruby on Rails, Redis, Postgres and more. 
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshot
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![App Screenshot](https://drive.google.com/uc?export=view&id=1-Q3oJiGKo2aH5rqUX5C79AFy9mVkOvD-)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [@axelb152](https://github.com/axelb152)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I am a fullstack developer who recently graduated from Le Wagon, who's techstack includes: React, Ruby on Rails, Redis, Postgres and more. 
 
-### `yarn eject`
+To see more of my portfolio:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://www.notion.so/Axel-Bagenal-Portfolio-9a24271f47ec470ab33ba248a09ac997
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install the project with yarn and install :
 
-## Learn More
+```bash
+  yarn add deliverycalcaxelb152
+  cd deliverycalcaxelb152
+  yarn 
+```
+    
+The library "antd" should already be included as a dependency in the project package when running the first line of the above code. However, if you cannot see the dependency inside the package.json file then run the following:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn add antd
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To start the local host, run:
+
+```bash
+  yarn start
+  ```
+## How I would optimize the project
+
+If I had more time to improve on the project, I would do the following:
+
+-Create a more responsive UI, particularly for tablet and smartphone sized viewports
+
+-Update design a bit more, change the margins on the 'Delivery Fee' card and fix spacing on the delivery form. 
+
+-Update the datepicker
+
+-Create logic where delivery fee result is hidden, and when a button 'calculate delivery fee' was implemented, the Delivery Result would show on click. 
+
+-Fix the calculation logic so that the delivery fee can only be rounded to 2 decimal 'cents' if/when the Friday Surcharge is implemented. 
+
+-I have not used ANTD design library prior to this project, I would definitely like to delve more into the documentation and have some more practice with it. 
+
+
