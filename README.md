@@ -39,11 +39,21 @@ https://linktr.ee/axelbagenal
 
 ## Installation
 
-Install the project with yarn and install :
+Clone the repository:
 
 ```bash
-  yarn add deliverycalcaxelb152
-  cd deliverycalcaxelb152
+git clone https://github.com/axelb152/deliverycalcaxelb152.git
+```
+
+Navigate to directory:
+
+```bash
+cd deliverycalcaxelb152
+```
+
+Install dependencies:
+
+```bash
   yarn 
 ```
     
